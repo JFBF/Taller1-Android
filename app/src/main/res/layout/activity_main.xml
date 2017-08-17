@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fibonacci" />
+
+    <Button
+        android:id="@+id/botonCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <EditText
+        android:id="@+id/textoInicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/factorial" />
+
+    <Button
+        android:id="@+id/botonCalcularFactorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Factorial" />
+
+    <EditText
+        android:id="@+id/textoFactorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Factorial" />
+
+    <Button
+        android:id="@+id/botonLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paises" />
+
+    <TextView
+        android:id="@+id/fiboinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/fibofecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/facinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/facfecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
+
+
+</ScrollView>
